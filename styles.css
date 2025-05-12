@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Cascadia Mono", sans-serif;
+  width: 100svw;
+  height: 100svh;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.timercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-start {
+  background-color: lightblue;
+}
+
+.btn-reset {
+  background-color: rgb(243, 174, 174);
+}
